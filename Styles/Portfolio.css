@@ -8,11 +8,13 @@ body{
 
 .btn-primary{
     border-radius: 5px;
-    background: rgba(84, 204, 204, 0.74);
+    background: rgba(168, 8, 147, 0.74);
 color:white ;
 font-size: 20px;
 font-weight: 700;
 padding: 15px 35px;
+margin-left: 100px;
+box-shadow: 3px 2px 2px rgb(205, 56, 235);
 
 }
 
@@ -20,9 +22,10 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
-color: black;
+color: rgb(255, 255, 255);
 font-size: 45px;
 font-weight: 800;
 }
@@ -38,4 +41,65 @@ nav li{
 nav a{
     text-decoration: none;
     color:cadetblue;
+}
+.header{
+    background-color:#000000;
+    background-image: url('../Images/wave\(2\).png');
+    background-repeat: no-repeat;
+background-position: bottom right;
+background-size: 600px;
+}
+.banner{
+    padding: 30px 30px 00px 150px;
+    display:flex;
+    text-align-last:center;
+    box-sizing: 100px;
+}
+.banner .profilepic{
+    width: 300px;
+}
+.banner-intro{
+  color: white;
+   text-shadow: cornsilk;
+   
+}
+.banner-greeting{
+    color: white;
+    margin-bottom: 0;
+    font-size: 30px;
+    ;
+}
+.banner-title{
+    color: white;
+    margin: 5px;
+    font-size: 45px;
+}
+.About{
+    color: white;
+    padding: 130px;
+   border-radius: 10px; 
+   background: #000000;
+   margin: 130px 0;
+}
+.section-title {
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-decriction{
+    color: #000000;
+    font-size: 18px;
+    padding: 100px;
+    border-radius: 10px;
+    margin-block-end: 5px;
+
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
 }
